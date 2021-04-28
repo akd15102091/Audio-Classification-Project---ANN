@@ -29,6 +29,15 @@ let read another sound file with the help of librosa and scipy.
 
 
 
+**Differences between librosa and scipy, when read sound file......**
+      
+      1) Librosa converts the signal to mono, meaning the channel will always be 1. But Scipy can't, means if tehre are two channels in signal then it will kepp both channels.
+      
+      2) Librosa can represent an audio signal with respect to a normalized pattern (btw -1 to 1),so the regular pattern is observed from all files.  but scipy does not give normalised data .
+
+      3) Librosa by default convert sample rate into 22050 .
+
+
 
 
 
