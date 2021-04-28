@@ -16,6 +16,7 @@ About Dataset :
 
 We will solve this task using **LIBROSA** library .
 
+------------------------------------------------------------------------------
 
 **1) Exploratory Data Analysis** :
 
@@ -28,6 +29,7 @@ let read another sound file with the help of librosa and scipy.
 ![a3](https://user-images.githubusercontent.com/61588604/116344939-c6963380-a804-11eb-9991-c15c8fe8b79f.png)
 
 
+--------------------------------------------------------------------------------
 
 **Differences between librosa and scipy, when read sound file......**
       
@@ -37,6 +39,16 @@ let read another sound file with the help of librosa and scipy.
 
       3) Librosa by default convert sample rate into 22050 .
 
+
+----------------------------------------------------------------------------------
+
+**2) Data Preprocessing** :
+
+      a) For data preprocessing, we used MFCC for extracting features.
+      
+      b) I used Mel-Frequency Cepstral Coefficients(MFCC) from the audio samples. The MFCC summarises the frequency distribution across the window size, so it is possible to analyse both the frequency and time characteristics of the sound. These audio representations will allow us to identify features for classification.
+
+      c) One by one read row and take file from folder and extracted features MFCC using Librosa.
 
 
 
