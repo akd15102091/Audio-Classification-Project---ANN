@@ -51,7 +51,41 @@ let read another sound file with the help of librosa and scipy.
       c) One by one read row and take file from folder and extracted features MFCC using Librosa.
 
 
+![a4](https://user-images.githubusercontent.com/61588604/116347145-49b98880-a809-11eb-949b-f1fb31df523d.png)
 
+![a5](https://user-images.githubusercontent.com/61588604/116347152-4d4d0f80-a809-11eb-8192-9b6c91c0ce1c.png)
+
+
+Then Splitted tha dataset (which we formed using librosa) into X & y.
+
+-----------------------------------------------------------------------------------
+
+**3) Model creation** :
+
+      Used Artificial Neural Network ( ANN ) to build model.
+      
+![a6](https://user-images.githubusercontent.com/61588604/116347543-04498b00-a80a-11eb-9f60-e78e50209e0f.png)
+
+
+-----------------------------------------------------------------------------------
+
+**4) Make Predictions** :
+
+Steps :
+
+      1) preprocess the new audio data
+
+      2) predict the classes
+
+      3) Inverse transform your predicted label    (Actually used Label encoder for dependent feature when preprocessed the data.)
+
+![a8](https://user-images.githubusercontent.com/61588604/116347860-a5384600-a80a-11eb-941a-8a2b49bc6f6d.png)
+
+
+------------------------------------------------------------------------------------
+
+
+<================================================================>    **END**  <=======================================================================>
 
 
 
